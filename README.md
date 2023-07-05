@@ -1,40 +1,21 @@
-# candy-crush
-A vanilla JavaScript Game inspired by Candy Crush - Built for learning purposes
+Candy Crush is a popular match-three puzzle game that challenges players to match candies of the same color to clear them from the game board. In this tutorial, we will create a Candy Crush game using HTML, CSS, and JavaScript.
 
-In this walkthrough, I show you how to build Candy Crush in pure JavaScript, HTML and CSS. Watch the full video walkthrough [here](https://youtu.be/XD5sZWxwJUk): 
+HTML will provide the structure for our game board, CSS will handle the visual styling and layout, and JavaScript will handle the game's logic and interactivity.
 
-This walkthrough is great as it will show you how to drag and drop elements in JavaScript. This is a very popular element in building many JavaScript projects.
+Throughout this tutorial, we will cover the following steps:
 
-In addition to this, we will also be practising using inbuilt methods such as:
+Setting up the HTML structure: We will create the necessary HTML elements to represent the game board and the candies on it. Each candy will be represented by a div element, and the game board will be a grid-like structure.
 
-- addEventListener()
-- setAttribute()
-- setInterval()
-- some()
-- every()
-- forEach()
-- includes()
-- contains()
-- add()
-- remove()
-- createElement()
-- appendChild()
-- push()
-- continue
+Styling the game elements with CSS: We will use CSS to style the candies, game board, and other visual elements. This will allow us to create a visually appealing and responsive game interface.
 
-And many more.
+Generating and displaying candies: Using JavaScript, we will generate random candies and display them on the game board. Each candy will have a specific color and value associated with it.
 
-I would love to see your finished game to please do tag me on YouTube, Twitter (ania_kubow) or Instagram :)
+Implementing candy swapping: We will enable players to swap adjacent candies by clicking on them. JavaScript will handle the logic for swapping candies and checking for matching combinations.
 
+Handling candy matching and scoring: JavaScript will detect matching combinations of candies and remove them from the game board. We will update the player's score based on the number of candies cleared.
 
-### MIT Licence
+Implementing game logic: We will implement additional game mechanics, such as time limits, level progression, and special candies (if desired). JavaScript will manage these aspects of the game and handle game over conditions.
 
-Copyright (c) 2020 Ania Kubow
+Game over and restart functionality: We will implement game over conditions, such as running out of time or moves. Players will have the option to restart the game after a game over.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*Translation: Ofcourse you can use this for you project! Just make sure to say where you got this from :)
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+By the end of this tutorial, you will have a fully functional Candy Crush game that can be played in a web browser. Let's get started by setting up the HTML structure and styling the game elements using CSS.
